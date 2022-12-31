@@ -1,14 +1,12 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 
 
 body { 
   padding-top: 90px; 
+  font-family: 'Montserrat';
   }
   /* This is to prevent the navbar from blocking content. */
-  * {
-      font-family: 'Montserrat';
-  }
+
   
   p {
       color: #283618;
@@ -196,7 +194,6 @@ p {
   position: absolute;
   top: 40%;
   right:20%;
-  font-family: "Roboto Mono", monospace;
   white-space: nowrap;
   width: fit-content;
 }
@@ -230,7 +227,6 @@ p {
 
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
@@ -322,6 +318,7 @@ background-size: 100% calc(2vw + 199px);
 /* Text Typing Animation */
 
 .typedTextContainer{
+  font-family: "Roboto Mono", monospace;
   position:absolute;
   left:10%;
   bottom:10%;
